@@ -1,0 +1,54 @@
+h1 {
+    color: white;
+}
+
+.header{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+    border: dashed
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+}
+a:link{color:blue;}
+a:visited{color:darkmagenta;}
+
+.item{
+    position: relative;
+}
+.item p{position: absolute;
+top: 25%;
+left:25%;
+}
+
+.item p{
+    opacity: 0.01;}
+
+
+.item :hover p{
+    opacity: 8;
+}
+
+.item :hover img{
+    opacity: 0.33;
+}
+
